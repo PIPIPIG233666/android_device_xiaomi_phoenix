@@ -4,6 +4,9 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Display density
+TARGET_SCREEN_DENSITY := 440
+
 # Inherit from sm6150-common
 -include device/xiaomi/sm6150-common/BoardConfigCommon.mk
 
@@ -26,6 +29,9 @@ TARGET_BOARD_PLATFORM_GPU := qcom-adreno618
 
 # Partitions
 BOARD_VENDORIMAGE_PARTITION_SIZE := 1610612736
+
+# Properties
+TARGET_VENDOR_PROP += $(DEVICE_PATH)/vendor.prop
 
 # Inherit from the proprietary version
 -include vendor/xiaomi/phoenix/BoardConfigVendor.mk
