@@ -277,6 +277,10 @@ vendor/firmware/CAMERA_ICP.elf
 # Charger
 vendor/bin/charge_logger
 
+# Cryptfshw
+vendor/bin/hw/vendor.qti.hardware.cryptfshw@1.0-service-qti
+vendor/etc/init/vendor.qti.hardware.cryptfshw@1.0-service-qti.rc
+
 # Display calibration
 vendor/etc/hdr_config.cfg
 vendor/etc/sdr_config.cfg
