@@ -31,6 +31,7 @@ vendor/lib/rfsa/adsp/misound_karaoke_res.bin
 vendor/lib/rfsa/adsp/misound_res.bin
 
 # Audio
+vendor/bin/audioshell_service
 vendor/lib64/libadiertac.so
 vendor/lib64/libaudcal.so
 vendor/lib64/libaudioparsers.so
@@ -273,6 +274,9 @@ vendor/lib64/mibokeh_712_opencl.bin
 # Camera Firmware
 vendor/firmware/CAMERA_ICP.elf
 
+# Charger
+vendor/bin/charge_logger
+
 # Display calibration
 vendor/etc/hdr_config.cfg
 vendor/etc/sdr_config.cfg
@@ -295,9 +299,30 @@ vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0_vendor.so
 vendor/firmware/NT36xxx_MP_Setting_Criteria_592A.csv
 
 # QDCM
-vendor/etc/qdcm_calib_data_xiaomi_42_02_0b_video_mode_dsc_dsi_panel.xml
-vendor/etc/qdcm_calib_data_xiaomi_37_02_0b_video_mode_dsc_dsi_panel.xml
+vendor/etc/qdcm_calib_data_Dual_nt35597_cmd_mode_dsi_truly_panel_without_DSC.xml.xml
+vendor/etc/qdcm_calib_data_Dual_nt35597_video_mode_dsi_truly_panel_without_DSC.xml.xml
+vendor/etc/qdcm_calib_data_Dual_Sharp_WQHD_cmd_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_Dual_Sharp_wqhd_video_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_hx83112a_video_mode_dsi_truly_panel.xml
+vendor/etc/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_nt35597_video_mode_dsi_truly_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_nt35695b_truly_fhd_command_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_nt35695b_truly_fhd_video_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_nt36672_truly_fhd_video_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_rm69299_amoled_fhd+_video_mode_dsi_visionox_panel.xml
+vendor/etc/qdcm_calib_data_sharp_1080p_cmd_mode_dsi_panel.xml
+vendor/etc/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
+vendor/etc/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
+vendor/etc/qdcm_calib_data_sw43404_amoled_boe_fhd+_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_sw43404_amoled_cmd_mode_dsi_boe_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_sw43404_amoled_video_mode_dsi_boe_panel_with_DSC.xml
+vendor/etc/qdcm_calib_data_td4328_cmd_mode_dsi_truly_panel.xml
+vendor/etc/qdcm_calib_data_td4328_video_mode_dsi_truly_panel.xml
+vendor/etc/qdcm_calib_data_td4330_cmd_mode_dsi_truly_panel.xml
+vendor/etc/qdcm_calib_data_td4330_video_mode_dsi_truly_panel.xml
 vendor/etc/qdcm_calib_data_xiaomi_37_02_0a_video_mode_dsc_dsi_panel.xml
+vendor/etc/qdcm_calib_data_xiaomi_37_02_0b_video_mode_dsc_dsi_panel.xml
+vendor/etc/qdcm_calib_data_xiaomi_42_02_0b_video_mode_dsc_dsi_panel.xml
 
 # Sensor
 vendor/etc/sensors/config/adux1050_0.json
@@ -341,7 +366,6 @@ vendor/etc/sensors/config/stk3x3x_0.json
 vendor/etc/sensors/config/tsl2560.json
 vendor/etc/sensors/hals.conf
 vendor/etc/sensors/sns_reg_config
-vendor/lib/sensors.elliptic.so
 vendor/lib/sensors.touch.so
 vendor/lib64/sensors.elliptic.so
 vendor/lib64/sensors.touch.so
