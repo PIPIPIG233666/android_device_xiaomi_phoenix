@@ -31,7 +31,6 @@ vendor/lib/rfsa/adsp/misound_karaoke_res.bin
 vendor/lib/rfsa/adsp/misound_res.bin
 
 # Audio
-vendor/bin/audioshell_service
 vendor/lib64/libadiertac.so
 vendor/lib64/libaudcal.so
 vendor/lib64/libaudioparsers.so
@@ -46,15 +45,9 @@ vendor/lib/libsurround_3mic_proc.so
 # Audio FX modules
 vendor/lib64/soundfx/libasphere.so
 vendor/lib64/soundfx/libdirac.so
-vendor/lib64/soundfx/libqcbassboost.so
-vendor/lib64/soundfx/libqcreverb.so
-vendor/lib64/soundfx/libqcvirt.so
 vendor/lib/soundfx/libasphere.so
 vendor/lib/soundfx/libmisoundfx.so
 vendor/lib/soundfx/libdirac.so
-vendor/lib/soundfx/libqcbassboost.so
-vendor/lib/soundfx/libqcreverb.so
-vendor/lib/soundfx/libqcvirt.so
 
 # Audio (speaker amplifier) firmware
 vendor/firmware/tfa98xx.cnt
@@ -274,16 +267,14 @@ vendor/lib64/mibokeh_712_opencl.bin
 # Camera Firmware
 vendor/firmware/CAMERA_ICP.elf
 
-# Charger
-vendor/bin/charge_logger
-
 # Display calibration
 vendor/etc/hdr_config.cfg
 vendor/etc/sdr_config.cfg
+
+# Display Feature
 vendor/etc/dsi_g7b_37_02_0a_video_display_mi.xml
 vendor/etc/dsi_g7b_37_02_0b_video_display_mi.xml
 vendor/etc/dsi_g7b_42_02_0b_video_display_mi.xml
-vendor/etc/elliptic_sensor.xml
 
 # Fingerprint
 vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service:vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service.xiaomi_phoenix
@@ -295,36 +286,13 @@ vendor/lib64/libgoodixhwfingerprint.so
 vendor/lib64/vendor.goodix.hardware.cap.biometrics.fingerprint@2.1.so
 vendor/lib64/vendor.xiaomi.hardware.fingerprintextension@1.0_vendor.so
 
-# Firmware
-vendor/firmware/NT36xxx_MP_Setting_Criteria_592A.csv
-
 # QDCM
-vendor/etc/qdcm_calib_data_Dual_nt35597_cmd_mode_dsi_truly_panel_without_DSC.xml.xml
-vendor/etc/qdcm_calib_data_Dual_nt35597_video_mode_dsi_truly_panel_without_DSC.xml.xml
-vendor/etc/qdcm_calib_data_Dual_Sharp_WQHD_cmd_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_Dual_Sharp_wqhd_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_hx83112a_video_mode_dsi_truly_panel.xml
-vendor/etc/qdcm_calib_data_nt35597_cmd_mode_dsi_truly_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_nt35597_video_mode_dsi_truly_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_nt35695b_truly_fhd_command_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_nt35695b_truly_fhd_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_nt36672_truly_fhd_video_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_rm69299_amoled_fhd+_video_mode_dsi_visionox_panel.xml
-vendor/etc/qdcm_calib_data_sharp_1080p_cmd_mode_dsi_panel.xml
-vendor/etc/qdcm_calib_data_Sharp_4k_cmd_mode_dsc_dsi_panel.xml
-vendor/etc/qdcm_calib_data_Sharp_4k_video_mode_dsc_dsi_panel.xml
-vendor/etc/qdcm_calib_data_sw43404_amoled_boe_fhd+_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_sw43404_amoled_cmd_mode_dsi_boe_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_sw43404_amoled_video_mode_dsi_boe_panel_with_DSC.xml
-vendor/etc/qdcm_calib_data_td4328_cmd_mode_dsi_truly_panel.xml
-vendor/etc/qdcm_calib_data_td4328_video_mode_dsi_truly_panel.xml
-vendor/etc/qdcm_calib_data_td4330_cmd_mode_dsi_truly_panel.xml
-vendor/etc/qdcm_calib_data_td4330_video_mode_dsi_truly_panel.xml
 vendor/etc/qdcm_calib_data_xiaomi_37_02_0a_video_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_xiaomi_37_02_0b_video_mode_dsc_dsi_panel.xml
 vendor/etc/qdcm_calib_data_xiaomi_42_02_0b_video_mode_dsc_dsi_panel.xml
 
 # Sensor
+vendor/etc/elliptic_sensor.xml
 vendor/etc/sensors/config/adux1050_0.json
 vendor/etc/sensors/config/ak991x_dri_0.json
 vendor/etc/sensors/config/bu27030_0.json
@@ -375,9 +343,11 @@ vendor/bin/hw/vendor.xiaomi.hardware.touchfeature@1.0-service
 vendor/etc/init/vendor.xiaomi.hardware.touchfeature@1.0-service.rc
 vendor/lib64/hw/vendor.xiaomi.hardware.touchfeature@1.0-impl.so
 
+# Touchscren Firmware
+vendor/firmware/NT36xxx_MP_Setting_Criteria_592A.csv
+
 # Thermal
 vendor/bin/mi_thermald
-vendor/bin/thermal_factory
 vendor/bin/thermal-engine
 vendor/etc/perf/thermalboost.conf
 vendor/etc/thermald-devices.conf
