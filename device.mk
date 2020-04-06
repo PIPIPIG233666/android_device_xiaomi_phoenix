@@ -38,7 +38,6 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.panel_info.sh \
     init.phoenix.rc
 
 # Permissions
